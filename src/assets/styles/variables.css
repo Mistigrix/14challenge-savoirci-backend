@@ -1,0 +1,41 @@
+/* Palette de couleurs principale - inspirée du drapeau ivoirien */
+:root {
+  /* Couleurs primaires */
+  --color-orange: #FF8C00;
+  --color-green: #009E49;
+  --color-blue: #3B82F6;
+  --color-purple: #8B5CF6;
+  --color-red: #E53E3E;
+
+  /* Thème clair (par défaut) */
+  --bg-primary: #FAF9F6;
+  --bg-card: #FFFFFF;
+  --bg-surface: #F0EDE6;
+  --text-primary: #111111;
+  --text-secondary: #888888;
+  --border-color: #E5E2DC;
+
+  /* Typographie */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'DM Sans', sans-serif;
+
+  /* Espacements */
+  --max-width: 1100px;
+  --padding-page: 40px;
+
+  /* Breakpoints (référence) : mobile < 576px, tablette < 992px, desktop >= 992px */
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+/* Thème sombre */
+[data-theme="dark"] {
+  --bg-primary: #0A0A0A;
+  --bg-card: #131315;
+  --bg-surface: #1A1A1C;
+  --text-primary: #F0EDE6;
+  --text-secondary: #777777;
+  --border-color: #1E1E1E;
+}
