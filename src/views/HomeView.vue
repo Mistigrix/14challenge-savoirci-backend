@@ -58,7 +58,7 @@ async function handleStartQuiz(category) {
             <span class="hero__title-accent">connaissances</span>
           </h1>
           <p class="hero__description">
-            Quiz interactif sur la Côte d'Ivoire, l'Afrique, la technologie et les sciences.
+            Quiz interactif sur la Côte d'Ivoire : histoire, géographie, culture, économie, sport, technologie, le Coran et la Bible.
             Combien de bonnes réponses pouvez-vous obtenir ?
           </p>
           <router-link to="/categories" class="hero__cta">Commencer le quiz</router-link>

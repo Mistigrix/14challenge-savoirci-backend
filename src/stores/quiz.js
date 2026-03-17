@@ -16,7 +16,10 @@ const CATEGORY_COLORS = {
   geographie: '#3B82F6',
   culture: '#009E49',
   economie: '#8B5CF6',
-  sport: '#E53E3E'
+  sport: '#E53E3E',
+  technologie: '#0EA5E9',
+  coran: '#14B8A6',
+  bible: '#EC4899'
 }
 
 /** Retourne la couleur associée à une catégorie */
