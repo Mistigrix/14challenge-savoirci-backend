@@ -12,6 +12,8 @@ RUN npm run build
 # Étape 2 : Serveur de production avec Nginx
 FROM nginx:stable-alpine AS production
 
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copie des fichiers buildés
 COPY --from=build /app/dist /usr/share/nginx/html
 
